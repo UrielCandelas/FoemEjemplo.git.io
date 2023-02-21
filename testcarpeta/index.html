@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="helpdiv">
+        <form action="#" method="post">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" placeholder="Ingrese su nombre" required>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="Ingrese su email" required>
+            <label for="phone">Telefono:</label>
+            <input type="tel" name="phone" id="phone" placeholder="Ingrese su telefono" required>
+            <label for="number">Ingrese el codigo postal:</label>
+            <input type="text" name="number" id="number" pattern="[0-9]{5}" placeholder="Ingrese el codigo postal" title="Ingrese un codigo de 5 digitos" required>
+            <label for="pass">Contraseña</label>
+            <input type="password" name="pass" id="pass" placeholder="Ingrese su contraseña" required>
+            <label for="message">Ingrese un mensaje:</label>
+            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+            
+            <button type="submit">Enviar mensaje</button>
+        </form>
+    </div>
+    
+    
+</body>
+</html>
